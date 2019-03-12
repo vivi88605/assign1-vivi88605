@@ -28,11 +28,11 @@ void setup() {
   rect(0,145,640,160);
 
   //input groundhog
-  groundhog = loadImage("groundhog.png");
+  groundhog = loadImage("img/groundhog.png");
   image(groundhog,280,80);
   
   //draw soil
-  soil = loadImage("soil.png");
+  soil = loadImage("img/soil.png");
 
   
   //input life
@@ -54,7 +54,7 @@ void setup() {
     soldierFloor = a*80+160;
     
   //input robot
-  robot = loadImage("robot.png");
+  robot = loadImage("img/robot.png");
     robotX= int(random(25,640));
     b = int(random(0,4));
     robotFloor = b*80+160;
