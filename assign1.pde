@@ -71,7 +71,7 @@ void draw() {
     image(soil,0,160);
   
   //let soldier walk
-  soldierX +=5;
+  soldierX +=3;
   soldierX%=720;
   image(soldier,soldierX-80,soldierFloor);
   
