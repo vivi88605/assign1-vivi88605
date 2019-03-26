@@ -55,7 +55,7 @@ void setup() {
     
   //input robot
   robot = loadImage("img/robot.png");
-    robotX= int(random(25,640));
+    robotX= int(random(25,480));
     b = int(random(0,4));
     robotFloor = b*80+160;
     
@@ -72,8 +72,8 @@ void draw() {
   
   //let soldier walk
   soldierX +=5;
-  soldierX%=640;
-  image(soldier,soldierX,soldierFloor);
+  soldierX%=720;
+  image(soldier,soldierX-80,soldierFloor);
   
   //draw laser
   noStroke();
